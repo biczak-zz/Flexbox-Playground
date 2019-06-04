@@ -1,0 +1,24 @@
+{
+  "name": "flexbox-playground-backend",
+  "version": "0.1.0",
+  "description": "Backend for the Flexbox Playground.",
+  "main": "src/index.js",
+  "repository": "https://github.com/biczak/Flexbox-Playground",
+  "author": "Alex Biczak <alex.biczak@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "commit": "npx git-cz",
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "nodemon": "^1.19.1"
+  }
+}
